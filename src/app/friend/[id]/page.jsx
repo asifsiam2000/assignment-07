@@ -108,7 +108,7 @@ return (
 
               <div >
                 
-                            <ButtonWork></ButtonWork>
+                            <ButtonWork data={data}></ButtonWork>
 
                 </div>
                         
