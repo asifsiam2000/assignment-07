@@ -1,3 +1,4 @@
+import AllFriend from "@/homepage/AllFriend";
 import Banner from "@/homepage/Banner";
 import FriendSection from "@/homepage/FriendSection";
 import Navbar from "@/Navbar/Navbar";
@@ -8,6 +9,7 @@ export default function Home() {
     <div className="container mx-auto my-10">
       <Banner></Banner>
       <FriendSection></FriendSection>
+      <AllFriend></AllFriend>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const FriendSection = () => {
     return (
-        <div className='grid grid-cols-4  my-8'>
+        <div className='grid grid-cols-2 md:grid-cols-4  my-8'>
 
             <div className='text-center bg-base-200 px-10 py-10 rounded-2xl mr-4'>
                 <h3 className='text-xl font-bold  '>10</h3>
