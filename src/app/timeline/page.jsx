@@ -115,7 +115,7 @@ const TimeLine = () => {
         ))}
           
         {textOn &&
-        call.map((data, key) => (
+        text.map((data, key) => (
           <div key={key} className="bg-base-200 gap-2  flex items-center rounded-2xl space-y-4 p-5">
             <div>
               
@@ -138,7 +138,7 @@ const TimeLine = () => {
           
 
          {videoOn &&
-        call.map((data, key) => (
+        video.map((data, key) => (
           <div key={key} className="bg-base-200 gap-2  flex items-center rounded-2xl space-y-4 p-5">
             <div>
               

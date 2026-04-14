@@ -15,7 +15,7 @@ const Footer = () => {
       
         <nav className="flex justify-center flex-col">
                   <div>
-                      <h2 className="text-lg">Social</h2>
+                      <h2 className="text-lg my-3">Social Links</h2>
           </div>
           <div className="flex justify-center gap-4">
             <a>
@@ -52,6 +52,22 @@ const Footer = () => {
               </svg>
             </a>
           </div>
+
+          <div className="divider"></div>
+          
+          {/* Divider-er porer ongsho */}
+<div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-70">
+  <aside>
+    <p>© 2026 KeenKeeper. All rights reserved.</p>
+  </aside>
+  
+  <nav className="flex gap-6">
+    <a className="link link-hover">Privacy Policy</a>
+    <a className="link link-hover">Terms of Service</a>
+    <a className="link link-hover">Cookies</a>
+  </nav>
+</div>
+
               </nav>
               
 
