@@ -6,7 +6,7 @@
     "email": "rahim.uddin@gmail.com",
     "days_since_contact": 18,
     "status": "overdue",
-    "tags":  "WORK",
+    "tags": ["college", "close friend"],
     "bio": "Met during college in Dhaka. We used to study together before exams.",
     "goal": 14,
     "next_due_date": "2026-04-10"
@@ -18,7 +18,7 @@
     "email": "nusrat.jahan@yahoo.com",
     "days_since_contact": 10,
     "status": "almost due",
-   "tags":  "FAMILY",
+    "tags": ["university", "group mate"],
     "bio": "Worked on multiple university projects together. Very helpful and smart.",
     "goal": 14,
     "next_due_date": "2026-04-18"
@@ -30,7 +30,7 @@
     "email": "tanvir.hasan@gmail.com",
     "days_since_contact": 5,
     "status": "on-track",
-   "tags":  "FAMILY",
+    "tags": ["gym", "friend"],
     "bio": "Gym partner. We motivate each other to stay fit.",
     "goal": 14,
     "next_due_date": "2026-04-23"
@@ -42,7 +42,7 @@
     "email": "sadia.akter@gmail.com",
     "days_since_contact": 20,
     "status": "overdue",
-    "tags":  "WORK",
+    "tags": ["school", "best friend"],
     "bio": "Best friend from school days. We still share everything.",
     "goal": 14,
     "next_due_date": "2026-04-08"
@@ -52,9 +52,9 @@
     "name": "Mehedi Hasan",
     "picture": "https://randomuser.me/api/portraits/men/55.jpg",
     "email": "mehedi.hasan@yahoo.com",
-    "days_since_contact": 13,  
+    "days_since_contact": 13,
     "status": "almost due",
-    "tags":  "WORK",
+    "tags": ["office", "colleague"],
     "bio": "Office colleague who helped me learn React and teamwork.",
     "goal": 14,
     "next_due_date": "2026-04-15"
@@ -66,7 +66,7 @@
     "email": "farhana.islam@gmail.com",
     "days_since_contact": 2,
     "status": "on-track",
-   "tags":  "FAMILY",
+    "tags": ["family friend"],
     "bio": "Family friend. We often meet during family gatherings.",
     "goal": 14,
     "next_due_date": "2026-04-26"
@@ -78,7 +78,7 @@
     "email": "arif.hossain@gmail.com",
     "days_since_contact": 16,
     "status": "overdue",
-  "tags":  "WORK",
+    "tags": ["football", "friend"],
     "bio": "Football teammate. We used to play every weekend.",
     "goal": 14,
     "next_due_date": "2026-04-12"
@@ -90,7 +90,7 @@
     "email": "jannat.ara@yahoo.com",
     "days_since_contact": 11,
     "status": "almost due",
-    "tags":  "WORK",
+    "tags": ["neighbor"],
     "bio": "Neighbor and childhood friend. We grew up together.",
     "goal": 14,
     "next_due_date": "2026-04-17"
@@ -102,7 +102,7 @@
     "email": "sabbir.ahmed@gmail.com",
     "days_since_contact": 3,
     "status": "on-track",
-    "tags":  "FAMILY",
+    "tags": ["coding", "friend"],
     "bio": "Coding buddy. We practice competitive programming together.",
     "goal": 14,
     "next_due_date": "2026-04-25"
