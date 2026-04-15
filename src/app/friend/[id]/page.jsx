@@ -1,4 +1,5 @@
 
+import ErrorPage from "@/app/not-found";
 import ButtonWork from "@/ButtonWork/ButtonWork";
 import Image from "next/image";
 import React from "react";
@@ -11,10 +12,17 @@ const Promice = async () => {
     return friendData;
 }
 
+
+
 const FriendDetailsPage = async({params}) => {
     const friends = await Promice();
     const { id } = await params;
-    const data = friends.find(friend => friend.id == id);
+  const data = friends.find(friend => friend.id == id);
+  
+  if (id > 10) {
+  return <ErrorPage></ErrorPage>
+}
+
     console.log(data)
 return (
     <div>
