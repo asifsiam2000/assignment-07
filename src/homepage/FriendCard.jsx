@@ -21,9 +21,9 @@ const FriendCard = ({ data }) => {
                     </div>
                 <div>
                     {
-                data.status === 'on-track' ? (<div className="badge badge-success">{data.status}</div>) :
-                    data.status === 'almost due' ? (<div className="badge badge-warning">{data.status}</div>):
-                    (<div className="badge badge-secondary">{data.status}</div>)
+                data.status === 'on-track' ? (<div className="badge badge-success text-white">{data.status}</div>) :
+                    data.status === 'almost due' ? (<div className="badge badge-warning text-white">{data.status}</div>):
+                    (<div className="badge badge-secondary text-white">{data.status}</div>)
             }
                 </div>
              </div>

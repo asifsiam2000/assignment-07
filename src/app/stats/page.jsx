@@ -11,7 +11,7 @@ const States = () => {
     const data = [
   { name: 'Text', value: text.length, fill: '#0088FE' },
   { name: 'Call', value: call.length, fill: '#00C49F' },
-  { name: 'Video', value: video.length, fill: '#00C49F' },
+  { name: 'Video', value: video.length, fill: '#00C400' },
   
 ];
     return (

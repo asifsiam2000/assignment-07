@@ -31,6 +31,7 @@ The goal of this project is to ensure you never lose touch with important people
 ## 🛠️ Technologies Used
 
 * React.js
+* Next.js
 * React Router
 * Tailwind CSS + DaisyUI
 * Recharts (for analytics chart)
