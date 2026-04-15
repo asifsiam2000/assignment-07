@@ -102,7 +102,7 @@ const TimeLine = () => {
             </div>
             <div>
               <h2 className="text-2xl font-bold">
-                {data.type}{" "}
+                Call
                 <span className="text-xl font-semibold text-[#64748B]">
                   with {data.name}
                 </span>
@@ -124,7 +124,7 @@ const TimeLine = () => {
             </div>
             <div>
               <h2 className="text-2xl font-bold">
-                {data.type}{" "}
+                Text
                 <span className="text-xl font-semibold text-[#64748B]">
                   with {data.name}
                 </span>
@@ -147,9 +147,9 @@ const TimeLine = () => {
             </div>
             <div>
               <h2 className="text-2xl font-bold">
-                {data.type}{" "}
+                Video 
                 <span className="text-xl font-semibold text-[#64748B]">
-                  with {data.name}
+                    with {data.name}
                 </span>
               </h2>
               <p className="text-xl font-semibold text-[#64748B]">
